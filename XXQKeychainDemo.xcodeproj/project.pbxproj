@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E04DDB81D8F90BF00B9D954 /* WJKeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04DDB61D8F90BF00B9D954 /* WJKeyChainManager.m */; };
+		1E04DDBE1D8FB55F00B9D954 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04DDBA1D8FB55F00B9D954 /* SDURLCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E04DDBF1D8FB55F00B9D954 /* SDCachedURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04DDBC1D8FB55F00B9D954 /* SDCachedURLResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E5CF3881D8E45A2000F3489 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF3871D8E45A2000F3489 /* main.m */; };
+		1E5CF38B1D8E45A2000F3489 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF38A1D8E45A2000F3489 /* AppDelegate.m */; };
+		1E5CF38E1D8E45A2000F3489 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF38D1D8E45A2000F3489 /* ViewController.m */; };
+		1E5CF3911D8E45A2000F3489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5CF38F1D8E45A2000F3489 /* Main.storyboard */; };
+		1E5CF3931D8E45A2000F3489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5CF3921D8E45A2000F3489 /* Assets.xcassets */; };
+		1E5CF3961D8E45A2000F3489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5CF3941D8E45A2000F3489 /* LaunchScreen.storyboard */; };
+		1E5CF3A11D8E45A2000F3489 /* XXQKeychainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF3A01D8E45A2000F3489 /* XXQKeychainDemoTests.m */; };
+		1E5CF3AC1D8E45A2000F3489 /* XXQKeychainDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF3AB1D8E45A2000F3489 /* XXQKeychainDemoUITests.m */; };
+		1E5CF3FB1D8E4666000F3489 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5CF3FA1D8E4666000F3489 /* Security.framework */; };
+		1E5CF4031D8E7322000F3489 /* WJKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF4021D8E7322000F3489 /* WJKeychain.m */; };
+		1ECBE1A31D8F8A0F0016AC0E /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBE1A11D8F8A0F0016AC0E /* SSKeychain.m */; };
+		D5A6FB8B27EB28DF592E4B12 /* libPods-XXQKeychainDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF63AB4F437BB04478F48B0 /* libPods-XXQKeychainDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5CF39D1D8E45A2000F3489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5CF37B1D8E45A2000F3489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5CF3821D8E45A2000F3489;
+			remoteInfo = XXQKeychainDemo;
+		};
+		1E5CF3A81D8E45A2000F3489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5CF37B1D8E45A2000F3489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5CF3821D8E45A2000F3489;
+			remoteInfo = XXQKeychainDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E04DDB61D8F90BF00B9D954 /* WJKeyChainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WJKeyChainManager.m; path = ../../../WJKeyChainManager.m; sourceTree = "<group>"; };
+		1E04DDB71D8F90BF00B9D954 /* WJKeyChainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WJKeyChainManager.h; path = ../../../WJKeyChainManager.h; sourceTree = "<group>"; };
+		1E04DDBA1D8FB55F00B9D954 /* SDURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDURLCache.m; path = "../../SDURLCache-master/SDURLCache.m"; sourceTree = "<group>"; };
+		1E04DDBB1D8FB55F00B9D954 /* SDURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDURLCache.h; path = "../../SDURLCache-master/SDURLCache.h"; sourceTree = "<group>"; };
+		1E04DDBC1D8FB55F00B9D954 /* SDCachedURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCachedURLResponse.m; path = "../../SDURLCache-master/SDCachedURLResponse.m"; sourceTree = "<group>"; };
+		1E04DDBD1D8FB55F00B9D954 /* SDCachedURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCachedURLResponse.h; path = "../../SDURLCache-master/SDCachedURLResponse.h"; sourceTree = "<group>"; };
+		1E5CF3831D8E45A2000F3489 /* XXQKeychainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXQKeychainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5CF3871D8E45A2000F3489 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5CF3891D8E45A2000F3489 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E5CF38A1D8E45A2000F3489 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E5CF38C1D8E45A2000F3489 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E5CF38D1D8E45A2000F3489 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E5CF3901D8E45A2000F3489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E5CF3921D8E45A2000F3489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5CF3951D8E45A2000F3489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E5CF3971D8E45A2000F3489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5CF39C1D8E45A2000F3489 /* XXQKeychainDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXQKeychainDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5CF3A01D8E45A2000F3489 /* XXQKeychainDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXQKeychainDemoTests.m; sourceTree = "<group>"; };
+		1E5CF3A21D8E45A2000F3489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5CF3A71D8E45A2000F3489 /* XXQKeychainDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXQKeychainDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5CF3AB1D8E45A2000F3489 /* XXQKeychainDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXQKeychainDemoUITests.m; sourceTree = "<group>"; };
+		1E5CF3AD1D8E45A2000F3489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5CF3FA1D8E4666000F3489 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1E5CF3FF1D8E46D6000F3489 /* XXQKeychainDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = XXQKeychainDemo.entitlements; sourceTree = "<group>"; };
+		1E5CF4011D8E7322000F3489 /* WJKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKeychain.h; sourceTree = "<group>"; };
+		1E5CF4021D8E7322000F3489 /* WJKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKeychain.m; sourceTree = "<group>"; };
+		1ECBE1A11D8F8A0F0016AC0E /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = "../../../sskeychain-master/SSKeychain.m"; sourceTree = "<group>"; };
+		1ECBE1A21D8F8A0F0016AC0E /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = "../../../sskeychain-master/SSKeychain.h"; sourceTree = "<group>"; };
+		2AA162CD30F1F830D7462200 /* Pods-XXQKeychainDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXQKeychainDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXQKeychainDemo/Pods-XXQKeychainDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC560A0DBEACF49329B65333 /* Pods-XXQKeychainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXQKeychainDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXQKeychainDemo/Pods-XXQKeychainDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF63AB4F437BB04478F48B0 /* libPods-XXQKeychainDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXQKeychainDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5CF3801D8E45A2000F3489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5CF3FB1D8E4666000F3489 /* Security.framework in Frameworks */,
+				D5A6FB8B27EB28DF592E4B12 /* libPods-XXQKeychainDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF3991D8E45A2000F3489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF3A41D8E45A2000F3489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E04DDB91D8FB54700B9D954 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				1E04DDBB1D8FB55F00B9D954 /* SDURLCache.h */,
+				1E04DDBA1D8FB55F00B9D954 /* SDURLCache.m */,
+				1E04DDBD1D8FB55F00B9D954 /* SDCachedURLResponse.h */,
+				1E04DDBC1D8FB55F00B9D954 /* SDCachedURLResponse.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		1E5CF37A1D8E45A2000F3489 = {
+			isa = PBXGroup;
+			children = (
+				1E04DDB91D8FB54700B9D954 /* Cache */,
+				1E5CF3851D8E45A2000F3489 /* XXQKeychainDemo */,
+				1E5CF3F91D8E4650000F3489 /* Framework */,
+				1E5CF39F1D8E45A2000F3489 /* XXQKeychainDemoTests */,
+				1E5CF3AA1D8E45A2000F3489 /* XXQKeychainDemoUITests */,
+				1E5CF3841D8E45A2000F3489 /* Products */,
+				43D8B552C64AC146DFF61BA8 /* Pods */,
+				99EF1359783082293A2ADC5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5CF3841D8E45A2000F3489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3831D8E45A2000F3489 /* XXQKeychainDemo.app */,
+				1E5CF39C1D8E45A2000F3489 /* XXQKeychainDemoTests.xctest */,
+				1E5CF3A71D8E45A2000F3489 /* XXQKeychainDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5CF3851D8E45A2000F3489 /* XXQKeychainDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E04DDB71D8F90BF00B9D954 /* WJKeyChainManager.h */,
+				1E04DDB61D8F90BF00B9D954 /* WJKeyChainManager.m */,
+				1ECBE1A21D8F8A0F0016AC0E /* SSKeychain.h */,
+				1ECBE1A11D8F8A0F0016AC0E /* SSKeychain.m */,
+				1E5CF3FF1D8E46D6000F3489 /* XXQKeychainDemo.entitlements */,
+				1E5CF3891D8E45A2000F3489 /* AppDelegate.h */,
+				1E5CF38A1D8E45A2000F3489 /* AppDelegate.m */,
+				1E5CF38C1D8E45A2000F3489 /* ViewController.h */,
+				1E5CF38D1D8E45A2000F3489 /* ViewController.m */,
+				1E5CF4011D8E7322000F3489 /* WJKeychain.h */,
+				1E5CF4021D8E7322000F3489 /* WJKeychain.m */,
+				1E5CF38F1D8E45A2000F3489 /* Main.storyboard */,
+				1E5CF3921D8E45A2000F3489 /* Assets.xcassets */,
+				1E5CF3941D8E45A2000F3489 /* LaunchScreen.storyboard */,
+				1E5CF3971D8E45A2000F3489 /* Info.plist */,
+				1E5CF3861D8E45A2000F3489 /* Supporting Files */,
+			);
+			path = XXQKeychainDemo;
+			sourceTree = "<group>";
+		};
+		1E5CF3861D8E45A2000F3489 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3871D8E45A2000F3489 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E5CF39F1D8E45A2000F3489 /* XXQKeychainDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3A01D8E45A2000F3489 /* XXQKeychainDemoTests.m */,
+				1E5CF3A21D8E45A2000F3489 /* Info.plist */,
+			);
+			path = XXQKeychainDemoTests;
+			sourceTree = "<group>";
+		};
+		1E5CF3AA1D8E45A2000F3489 /* XXQKeychainDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3AB1D8E45A2000F3489 /* XXQKeychainDemoUITests.m */,
+				1E5CF3AD1D8E45A2000F3489 /* Info.plist */,
+			);
+			path = XXQKeychainDemoUITests;
+			sourceTree = "<group>";
+		};
+		1E5CF3F91D8E4650000F3489 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF3FA1D8E4666000F3489 /* Security.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		43D8B552C64AC146DFF61BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC560A0DBEACF49329B65333 /* Pods-XXQKeychainDemo.debug.xcconfig */,
+				2AA162CD30F1F830D7462200 /* Pods-XXQKeychainDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99EF1359783082293A2ADC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF63AB4F437BB04478F48B0 /* libPods-XXQKeychainDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5CF3821D8E45A2000F3489 /* XXQKeychainDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5CF3B01D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemo" */;
+			buildPhases = (
+				A3ECEA66A99072397888CAF1 /* [CP] Check Pods Manifest.lock */,
+				1E5CF37F1D8E45A2000F3489 /* Sources */,
+				1E5CF3801D8E45A2000F3489 /* Frameworks */,
+				1E5CF3811D8E45A2000F3489 /* Resources */,
+				719A8B646FDF94AD7AEF61C7 /* [CP] Embed Pods Frameworks */,
+				C8A717906A7D633442A1331F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXQKeychainDemo;
+			productName = XXQKeychainDemo;
+			productReference = 1E5CF3831D8E45A2000F3489 /* XXQKeychainDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5CF39B1D8E45A2000F3489 /* XXQKeychainDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5CF3B31D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemoTests" */;
+			buildPhases = (
+				1E5CF3981D8E45A2000F3489 /* Sources */,
+				1E5CF3991D8E45A2000F3489 /* Frameworks */,
+				1E5CF39A1D8E45A2000F3489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5CF39E1D8E45A2000F3489 /* PBXTargetDependency */,
+			);
+			name = XXQKeychainDemoTests;
+			productName = XXQKeychainDemoTests;
+			productReference = 1E5CF39C1D8E45A2000F3489 /* XXQKeychainDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E5CF3A61D8E45A2000F3489 /* XXQKeychainDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5CF3B61D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemoUITests" */;
+			buildPhases = (
+				1E5CF3A31D8E45A2000F3489 /* Sources */,
+				1E5CF3A41D8E45A2000F3489 /* Frameworks */,
+				1E5CF3A51D8E45A2000F3489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5CF3A91D8E45A2000F3489 /* PBXTargetDependency */,
+			);
+			name = XXQKeychainDemoUITests;
+			productName = XXQKeychainDemoUITests;
+			productReference = 1E5CF3A71D8E45A2000F3489 /* XXQKeychainDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5CF37B1D8E45A2000F3489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "夏祥全";
+				TargetAttributes = {
+					1E5CF3821D8E45A2000F3489 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 85QKS6FEY2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					1E5CF39B1D8E45A2000F3489 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E5CF3821D8E45A2000F3489;
+					};
+					1E5CF3A61D8E45A2000F3489 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E5CF3821D8E45A2000F3489;
+					};
+				};
+			};
+			buildConfigurationList = 1E5CF37E1D8E45A2000F3489 /* Build configuration list for PBXProject "XXQKeychainDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5CF37A1D8E45A2000F3489;
+			productRefGroup = 1E5CF3841D8E45A2000F3489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5CF3821D8E45A2000F3489 /* XXQKeychainDemo */,
+				1E5CF39B1D8E45A2000F3489 /* XXQKeychainDemoTests */,
+				1E5CF3A61D8E45A2000F3489 /* XXQKeychainDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5CF3811D8E45A2000F3489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5CF3961D8E45A2000F3489 /* LaunchScreen.storyboard in Resources */,
+				1E5CF3931D8E45A2000F3489 /* Assets.xcassets in Resources */,
+				1E5CF3911D8E45A2000F3489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF39A1D8E45A2000F3489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF3A51D8E45A2000F3489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		719A8B646FDF94AD7AEF61C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXQKeychainDemo/Pods-XXQKeychainDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3ECEA66A99072397888CAF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A717906A7D633442A1331F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXQKeychainDemo/Pods-XXQKeychainDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5CF37F1D8E45A2000F3489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E04DDBE1D8FB55F00B9D954 /* SDURLCache.m in Sources */,
+				1E04DDBF1D8FB55F00B9D954 /* SDCachedURLResponse.m in Sources */,
+				1E04DDB81D8F90BF00B9D954 /* WJKeyChainManager.m in Sources */,
+				1E5CF4031D8E7322000F3489 /* WJKeychain.m in Sources */,
+				1E5CF38E1D8E45A2000F3489 /* ViewController.m in Sources */,
+				1E5CF38B1D8E45A2000F3489 /* AppDelegate.m in Sources */,
+				1E5CF3881D8E45A2000F3489 /* main.m in Sources */,
+				1ECBE1A31D8F8A0F0016AC0E /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF3981D8E45A2000F3489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5CF3A11D8E45A2000F3489 /* XXQKeychainDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5CF3A31D8E45A2000F3489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5CF3AC1D8E45A2000F3489 /* XXQKeychainDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5CF39E1D8E45A2000F3489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5CF3821D8E45A2000F3489 /* XXQKeychainDemo */;
+			targetProxy = 1E5CF39D1D8E45A2000F3489 /* PBXContainerItemProxy */;
+		};
+		1E5CF3A91D8E45A2000F3489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5CF3821D8E45A2000F3489 /* XXQKeychainDemo */;
+			targetProxy = 1E5CF3A81D8E45A2000F3489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E5CF38F1D8E45A2000F3489 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5CF3901D8E45A2000F3489 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E5CF3941D8E45A2000F3489 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5CF3951D8E45A2000F3489 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5CF3AE1D8E45A2000F3489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E5CF3AF1D8E45A2000F3489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5CF3B11D8E45A2000F3489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC560A0DBEACF49329B65333 /* Pods-XXQKeychainDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XXQKeychainDemo/XXQKeychainDemo.entitlements;
+				INFOPLIST_FILE = XXQKeychainDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E5CF3B21D8E45A2000F3489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA162CD30F1F830D7462200 /* Pods-XXQKeychainDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XXQKeychainDemo/XXQKeychainDemo.entitlements;
+				INFOPLIST_FILE = XXQKeychainDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E5CF3B41D8E45A2000F3489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XXQKeychainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXQKeychainDemo.app/XXQKeychainDemo";
+			};
+			name = Debug;
+		};
+		1E5CF3B51D8E45A2000F3489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XXQKeychainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXQKeychainDemo.app/XXQKeychainDemo";
+			};
+			name = Release;
+		};
+		1E5CF3B71D8E45A2000F3489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XXQKeychainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XXQKeychainDemo;
+			};
+			name = Debug;
+		};
+		1E5CF3B81D8E45A2000F3489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XXQKeychainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxq.XXQKeychainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XXQKeychainDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5CF37E1D8E45A2000F3489 /* Build configuration list for PBXProject "XXQKeychainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5CF3AE1D8E45A2000F3489 /* Debug */,
+				1E5CF3AF1D8E45A2000F3489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5CF3B01D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5CF3B11D8E45A2000F3489 /* Debug */,
+				1E5CF3B21D8E45A2000F3489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5CF3B31D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5CF3B41D8E45A2000F3489 /* Debug */,
+				1E5CF3B51D8E45A2000F3489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5CF3B61D8E45A2000F3489 /* Build configuration list for PBXNativeTarget "XXQKeychainDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5CF3B71D8E45A2000F3489 /* Debug */,
+				1E5CF3B81D8E45A2000F3489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5CF37B1D8E45A2000F3489 /* Project object */;
+}
